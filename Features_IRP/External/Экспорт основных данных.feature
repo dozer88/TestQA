@@ -538,3 +538,10 @@
 		| 'e1cib/data/Catalog.PartnerSegments?ref=b762b13668d0905011eb76684b9f6864' | 'e1cib/data/Catalog.Partners?ref=b762b13668d0905011eb7663e35d7952' |
 		| 'e1cib/data/Catalog.PartnerSegments?ref=b762b13668d0905011eb76684b9f6864' | 'e1cib/data/Catalog.Partners?ref=b762b13668d0905011eb7663e35d7953' |
     
+	// Catalog.ExpenseAndRevenueTypes
+
+	И я проверяю или создаю для справочника "ExpenseAndRevenueTypes" объекты:
+		| 'Ref'                                                                            | 'DeletionMark' | 'Parent' | 'Code' | 'IsExpense' | 'IsRevenue' | 'IsFinancialMovementType' | 'Description_en' | 'Description_hash' | 'Description_ru' | 'Description_tr' |
+		| 'e1cib/data/Catalog.ExpenseAndRevenueTypes?ref=81fab05cdadaa57911ec795a013b5d83' | 'False'        | ''       | 2      | 'True'      | 'False'     | 'False'                   | ''               | ''                 | 'Статья затрат'  | ''               |
+
+
